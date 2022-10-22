@@ -2,7 +2,5 @@
 Fuzzy Algorithm programmed with Python
 
 Program created by:
-
-Muhammad Rafi Andeo Praja (Telkom University)
-
-Dian Ramadhini (Telkom University)
+1. Muhammad Rafi Andeo Praja (Telkom University)
+2. Dian Ramadhini (Telkom University)
