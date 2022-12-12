@@ -169,3 +169,139 @@ Or maybe through using pandas you have an idea of your own or are looking for so
 Feel free to ask questions on the [mailing list](https://groups.google.com/forum/?fromgroups#!forum/pydata) or on [Slack](https://pandas.pydata.org/docs/dev/development/community.html?highlight=slack#community-slack).
 
 As contributors and maintainers to this project, you are expected to abide by pandas' code of conduct. More information can be found at: [Contributor Code of Conduct](https://github.com/pandas-dev/.github/blob/master/CODE_OF_CONDUCT.md)
+
+<h1 align="center">
+<img src="/branding/logo/primary/numpylogo.svg" width="300">
+</h1><br>
+
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](
+https://numfocus.org)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/numpy.svg?label=PyPI%20downloads)](
+https://pypi.org/project/numpy/)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/numpy.svg?label=Conda%20downloads)](
+https://anaconda.org/conda-forge/numpy)
+[![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg)](
+https://stackoverflow.com/questions/tagged/numpy)
+[![Nature Paper](https://img.shields.io/badge/DOI-10.1038%2Fs41592--019--0686--2-blue)](
+https://doi.org/10.1038/s41586-020-2649-2)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/numpy/numpy/badge)](https://api.securityscorecards.dev/projects/github.com/numpy/numpy)
+
+
+NumPy is the fundamental package for scientific computing with Python.
+
+- **Website:** https://www.numpy.org
+- **Documentation:** https://numpy.org/doc
+- **Mailing list:** https://mail.python.org/mailman/listinfo/numpy-discussion
+- **Source code:** https://github.com/numpy/numpy
+- **Contributing:** https://www.numpy.org/devdocs/dev/index.html
+- **Bug reports:** https://github.com/numpy/numpy/issues
+- **Report a security vulnerability:** https://tidelift.com/docs/security
+
+It provides:
+
+- a powerful N-dimensional array object
+- sophisticated (broadcasting) functions
+- tools for integrating C/C++ and Fortran code
+- useful linear algebra, Fourier transform, and random number capabilities
+
+Testing:
+
+NumPy requires `pytest` and `hypothesis`.  Tests can then be run after installation with:
+
+    python -c 'import numpy; numpy.test()'
+
+Code of Conduct
+----------------------
+
+NumPy is a community-driven open source project developed by a diverse group of
+[contributors](https://numpy.org/teams/). The NumPy leadership has made a strong
+commitment to creating an open, inclusive, and positive community. Please read the
+[NumPy Code of Conduct](https://numpy.org/code-of-conduct/) for guidance on how to interact
+with others in a way that makes our community thrive.
+
+Call for Contributions
+----------------------
+
+The NumPy project welcomes your expertise and enthusiasm!
+
+Small improvements or fixes are always appreciated. If you are considering larger contributions
+to the source code, please contact us through the [mailing
+list](https://mail.python.org/mailman/listinfo/numpy-discussion) first.
+
+Writing code isn’t the only way to contribute to NumPy. You can also:
+- review pull requests
+- help us stay on top of new and old issues
+- develop tutorials, presentations, and other educational materials
+- maintain and improve [our website](https://github.com/numpy/numpy.org)
+- develop graphic design for our brand assets and promotional materials
+- translate website content
+- help with outreach and onboard new contributors
+- write grant proposals and help with other fundraising efforts
+
+For more information about the ways you can contribute to NumPy, visit [our website](https://numpy.org/contribute/). 
+If you’re unsure where to start or how your skills fit in, reach out! You can
+ask on the mailing list or here, on GitHub, by opening a new issue or leaving a
+comment on a relevant issue that is already open.
+
+Our preferred channels of communication are all public, but if you’d like to
+speak to us in private first, contact our community coordinators at
+numpy-team@googlegroups.com or on Slack (write numpy-team@googlegroups.com for
+an invitation).
+
+We also have a biweekly community call, details of which are announced on the
+mailing list. You are very welcome to join.
+
+If you are new to contributing to open source, [this
+guide](https://opensource.guide/how-to-contribute/) helps explain why, what,
+and how to successfully get involved.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/jmv74211/matplotlib/master/images/matplotlib_logo.png" width="50%">
+</p>
+
+![Status](https://img.shields.io/badge/Status-building-orange.svg) ![Version](https://img.shields.io/badge/version-3.2.1-blue.svg)
+
+
+# Introduction to matplotlib
+
+Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
+
+**Considerations**:
+
+- The figure is the window or general page in which everything is drawn. You can create multiple independent figures. A figure can have other things, like a subtitle, which is a centered title of the figure, a legend, a color bar...
+
+- Axes are added to the figure. The axes are the area in which the data is graphed with functions such as `plot()` and `scatter()`, and can have associated labels.
+
+- Each axis has an x-axis and a y-axis, and each contains a numbering.
+
+   There are also the labels of the axes, the title, and the legend that must be taken into account when you want to customize the axes, but also taking into account that the scales of the axes and the grid lines can be useful.
+
+- The vertebral lines are lines that connect the axis marks and designate the boundaries of the data area, in other words, they are the simple square that you can see when you have initialized.
+
+- **matplotlib** is the entire Python data display package.
+
+- **pyplot** is a module in the matplotlib package. The module provides an interface that allows you to create shapes and axes implicitly and automatically to achieve the desired frame.
+
+- Machine learning **data** for graphing on matplotlib **should be structured under the numpy library**.
+
+# How to create graphics with matplotlib
+
+`Matplotlib` allows you to create different graphics. The possible types and examples links are mentioned below:
+
+## Line diagram
+
+Create a simple plot.
+
+<p>
+<img src="https://raw.githubusercontent.com/jmv74211/matplotlib/master/images/line_diagram_intro.png" width="50%">
+</p>
+
+> You can find examples [here](https://github.com/jmv74211/matplotlib/tree/master/1_line_diagram)
+
+
+# References
+
+- Matplotlib: Visualization with Python, available in https://matplotlib.org/
+
+- Codebasics youtube channel, Matplotlib Tutorial, available in https://www.youtube.com/watch?v=qqwf4Vuj8oM&list=PLeo1K3hjS3uu4Lr8_kro2AqaO6CFYgKOl&index=1
